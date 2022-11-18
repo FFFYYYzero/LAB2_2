@@ -1,0 +1,12 @@
+<!--pages/index/index.wxml-->
+<image class="background" src="/image/singleplay.png"></image>
+<button class='roll' bindtap='click'>开始博饼</button>
+
+
+<image class='dice1' src="{{dice[0]}}"></image>
+<image class='dice2' src="{{dice[1]}}"></image>
+<image class='dice3' src="{{dice[2]}}"></image>
+<image class='dice4' src="{{dice[3]}}"></image>
+<image class='dice5' src="{{dice[4]}}"></image>
+<image class='dice6' src="{{dice[5]}}"></image>
+<image class='giff' src="{{GIF}}"></image>

@@ -1,0 +1,15 @@
+<!--pages/muti/muti.wxml-->
+<image class="background" src="/image/play.jpg"></image>
+
+   <button class="edit" bindtap="modalinput">
+     <text>请输入玩家人数</text>
+   </button>
+   <modal hidden="{{hiddenmodalput}}" title="请输入玩家人数" 
+   	confirm-text="提交" cancel-text="取消" bindcancel="modalinput" 
+     	bindconfirm="confirm">
+       <input type="text" bindinput='getInputNum'  name="name" class="content" placeholder="请输入数字" />
+
+     <!-- 这里可以自由选择你的输入框类型<input type='text' placeholder="请输入内容" auto-focus/> -->
+     
+   </modal>
+

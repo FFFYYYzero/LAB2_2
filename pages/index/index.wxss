@@ -1,0 +1,67 @@
+/* pages/index/index.wxss */
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  z-index: -1;
+}
+.roll{
+  display: block;
+  position: fixed;
+  margin: auto;
+  width: 40%;
+  bottom: 20%;
+  left:31%;
+  background-image: linear-gradient(to right, #EB3349 0%, #f8f407  100%);
+  color: white;
+  }
+ 
+ .dice1{
+  position: fixed;
+  width: 9%;
+  height: 9%;
+  left: 33%;
+  bottom: 55%;  
+ }
+ .dice2{
+  position: fixed;
+  width: 9%;
+  height: 9%;
+  left: 47%;
+  bottom: 55%;  
+ }
+ .dice3{
+  position: fixed;
+  width: 9%;
+  height: 9%;
+  left: 61%;
+  bottom: 55%;  
+ }
+ .dice4{
+  position: fixed;
+  width: 9%;
+  height: 9%;
+  left: 33%;
+  bottom: 44%;  
+ }
+ .dice5{
+  position: fixed;
+  width: 9%;
+  height: 9%;
+  left: 47%;
+  bottom: 44%;  
+ }
+ .dice6{
+  position: fixed;
+  width: 9%;
+  height: 9%;
+  left: 61%;
+  bottom: 44%;  
+ }
+.giff{
+  position: fixed;
+  bottom: 35%;  
+  left : 33%;
+  width: 37%;
+  height: 37%;
+}

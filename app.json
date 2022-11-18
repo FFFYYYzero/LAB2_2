@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/rank/rank",
+    "pages/mutiplays/mutiplays",
+    "pages/muti/muti",
+    "pages/logs/logs",
+    "pages/rule/rule"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/play_dark.png",
+        "selectedIconPath": "image/play_light.png",
+        "text": "单人游戏"
+      },
+      {
+        "pagePath": "pages/muti/muti",
+        "iconPath": "image/mutiplay_dark.png",
+        "selectedIconPath": "image/mutiplay_light.png",
+        "text": "多人游戏"
+      },
+      {
+        "pagePath": "pages/rule/rule",
+        "iconPath": "image/rule_dark.png",
+        "selectedIconPath": "image/rule_light.png",
+        "text": "规则"
+      }
+    ]
+  }
+}
